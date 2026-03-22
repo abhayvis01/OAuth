@@ -1,0 +1,24 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "A robust Node.js and Express.js backend offering a complete authentication solution with MongoDB. Features include secure user registration, JWT-based login, OTP email verification for enhanced security, and advanced session management enabling users to seamlessly log out from all active devices at once.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "morgan": "^1.10.1",
+    "nodemailer": "^8.0.3",
+    "nodemon": "^3.1.14"
+  }
+}
